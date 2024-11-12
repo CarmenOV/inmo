@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Carmen Ortega</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Inmobiliaria Carmen Ortega</h1>
+        <p>Encuentra tu hogar ideal con nosotros</p>
+        <button onclick="mostrarContacto()">Contáctanos</button>
+    </header>
+
+    <section id="properties">
+        <h2>Nuestras Propiedades</h2>
+        <div class="property-gallery">
+            <div class="property">
+                <img src="imagenes/casa1.jpg" alt="Casa en la ciudad">
+                <p>Casa en la ciudad</p>
+                <p>Precio: $200,000</p>
+            </div>
+            <div class="property">
+                <img src="imagenes/departamento.jpg" alt="Departamento en el centro">
+                <p>Departamento en el centro</p>
+                <p>Precio: $150,000</p>
+            </div>
+            <div class="property">
+                <img src="imagenes/casa_campo.jpg" alt="Casa en el campo">
+                <p>Casa en el campo</p>
+                <p>Precio: $250,000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <a href="#"><li>Compra y venta de propiedades</li></a>
+            <a href="#"><li>Asesoría inmobiliaria</li></a>
+            <a href="#"><li>Gestión de alquileres</li></a>        
+            <h2><a href="MYWALLNUEVO/index.php">Trabajo de Gerardo</a></h2>
+
+        </ul>
+    </section>
+ 
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Inmobiliaria Carmen Ortega lleva más de 20 años en el mercado, ofreciendo propiedades de calidad y un servicio excepcional a nuestros clientes.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Inmobiliaria Carmen Ortega. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function mostrarContacto() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

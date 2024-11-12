@@ -1,0 +1,187 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del cuerpo */
+body {
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #e0f7fa; /* Azul muy claro */
+    color: #00796b; /* Verde azulado oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+header button {
+    background-color: #00acc1; /* Azul turquesa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #00838f; /* Azul turquesa más oscuro */
+}
+
+/* Sección de Propiedades */
+#properties {
+    padding: 40px;
+    text-align: center;
+}
+
+#properties h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.property-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.property {
+    background-color: white;
+    border: 1px solid #b2ebf2;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.property img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.property p {
+    margin: 10px 0;
+    color: #00796b;
+}
+
+.property:hover {
+    transform: translateY(-10px);
+}
+
+/* Sección de Servicios */
+#services {
+    background-color: #e0f7fa;
+    padding: 40px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style: none;
+}
+
+#services li {
+    font-size: 1.2em;
+    color: #006064;
+    margin-bottom: 10px;
+}
+
+/* Sección Acerca de Nosotros */
+#about {
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    color: #004d40;
+}
+
+/* Sección de Contacto */
+#contact {
+    background-color: #f0f8ff;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    font-size: 1em;
+    color: #004d40;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #ffffff;
+}
+
+#contact button {
+    background-color: #00acc1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #00838f;
+}
+
+/* Pie de página */
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
